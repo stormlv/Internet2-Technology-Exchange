@@ -1,0 +1,15 @@
+Prototype use of Dynamic Circuits in the CMS data distribution
+
+PhEDEx is the data placement and management tool for the CMS experiment at the LHC. It
+controls the large-scale data-flows on the WAN across the experiment, typically handling 1 PB
+of data per week.
+
+ANSE (Advanced Network Services for Experiments) is an NSF funded project, which aims to 
+integrate advanced network-aware tools in the mainstream production workflows of ATLAS and CMS.
+In the context of CMS, it seeks to integrate bandwidth provisioning capabilities in PhEDEx, as well
+as to improve its network awareness for smart source selection.
+
+Development work in PhEDEX related to the integration of bandwidth provisioning support is already well past
+its prototype phase and is set to be released in production by the start of Run 2. PhEDEx will 
+thus be able to make use of bandwidth provisioning systems, as soon as they are mature enough.
+
