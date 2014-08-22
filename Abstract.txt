@@ -1,4 +1,4 @@
-Prototype use of Dynamic Circuits in the CMS data distribution
+Use of Dynamic Circuits in PhEDEx, the CMS data distribution framework
 
 PhEDEx is the data placement and management tool for the CMS experiment at the LHC. It
 controls the large-scale data-flows on the WAN across the experiment, typically handling 1 PB
@@ -13,3 +13,6 @@ Development work in PhEDEX related to the integration of bandwidth provisioning 
 its prototype phase and is set to be released in production by the start of Run 2. PhEDEx will 
 thus be able to make use of bandwidth provisioning systems, as soon as they are mature enough.
 
+In this paper we present the general architecture of the new circuit management framework that
+we propose in PhEDEx, give technical details regarding its implementation, show possible use cases for it
+and reveal future plans.
